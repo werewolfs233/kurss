@@ -1,0 +1,90 @@
+html, body{
+    height: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: auto;
+    background-color:rgba(23, 0, 56, 0.48);
+}
+
+.inner-heder{
+    width: 100%;
+    height: 10%;
+    position: fixed;
+}
+
+.heder:hover{
+   background: rgba(0, 0, 0, 0.5);
+}
+
+.heder{
+    height: 100%;
+    width: 100%;
+    position:relative;
+    background: #000;
+
+}
+
+.img1{
+    height:80%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+
+}
+
+.img2{
+    height:80%;
+    position: absolute;
+    top: 10%;
+    left: 80%;
+}
+
+.blok{
+    background-image: url(img/Movies___Transformers_Movie_042916_.jpg);
+    margin-top: 0px;
+    column-width: 20px;
+    column-count: 2;
+    column-gap: 10px;
+    column-rule: 8px sold gren;
+    height: 150px;
+    padding: 15%;
+    position: relative;
+}
+
+.p1{
+    border-left-color: #ef40b0;
+    border-left-style: dotted;
+    border-left-width: 3px;
+    padding: 0 10px;
+    margin: 0 50px;
+    color:greenyellow;
+}
+
+.p2{
+    border-right-color: #ef40b0;
+    border-right-style: dotted;
+    border-right-width: 3px;
+    padding: 0 10px;
+    margin: 0 50px;
+    color:greenyellow;
+}
+
+.futer{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    margin-top: 50px;
+    background-color: rgba(66, 0, 12, 0.9);
+
+
+}
+
+.futer:hover{
+    background-color: rgba(66, 0, 12, 1);
+}
+
+.futer1{
+    height: 15%;
+    color: azure;
+}

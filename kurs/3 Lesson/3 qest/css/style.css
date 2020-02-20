@@ -1,0 +1,40 @@
+html, body{
+    height: 100%;
+    margin-top: 0;
+}
+
+.q{
+    background-color: aqua;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 0  0 100px 100px;
+    height: 15%;
+    position: absolut;
+}
+
+.w{
+    background: rgba(234, 0, 255, 0.5);
+    width: 10%;
+    height: 600px;
+    margin-top: 10px;
+    float: left;
+    position: fixed;
+}
+
+.e{
+    margin-left: 15%;
+    background-color: hotpink;
+    height: 600px;
+    width:1300px;
+    margin-right: 5%;
+    margin-top: 10px;
+}
+
+.r{
+    background-color: bisque;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 50px  50px 0 0;
+    height: 15%;
+    margin-top: 10px;
+}

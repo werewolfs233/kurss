@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #00f2ff;
+    color: white;
+    font-size: 30px;
+}
+
+.row:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.row { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.row { display: block; }
+/* close commented backslash hack */
+
+.header1 {
+    margin-bottom: 10px;
+    width: 50%;
+    float :left;
+
+}
+
+.inner-header1{
+    background-color: blueviolet;
+    height: 100px;
+}
+
+.header2{
+    margin-bottom: 10px;
+    width: 50%;
+    float: left;
+    padding-left: 10px;
+}
+
+.inner-header2{
+     background-color: blueviolet;
+    height: 100px;
+}
+
+.content {
+    background-color: crimson;
+    min-height: 350px;
+
+}
+
+.sidbar1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 33%;
+    float: left;
+}
+
+.inner-sidbar1{
+    background-color:cornflowerblue;
+    height: 250px;
+}
+
+.sidbar2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 33%;
+    float: left;
+    padding-left: 10px;
+}
+
+.inner-sidbar2{
+    background-color:cornflowerblue;
+    height: 250px;
+}
+
+.sidbar3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 34%;
+    float: left;
+    padding-left: 10px;
+}
+
+.inner-sidbar3{
+    background-color:cornflowerblue;
+    height: 250px;
+}
+
+.footer1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 25%;
+    float: left;
+}
+
+.inner-footer1{
+    background-color:black;
+    height: 200px;
+}
+
+.footer2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 25%;
+    float: left;
+    padding-left: 10px;
+}
+
+.inner-footer2{
+    background-color:black;
+    height: 200px;
+}
+
+.footer3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 25%;
+    float: left;
+    padding-left: 10px;
+}
+
+.inner-footer3{
+    background-color:black;
+    height: 200px;
+}
+
+.footer4{
+     margin-top: 10px;
+    margin-bottom: 10px;
+    width: 25%;
+    float: left;
+    padding-left: 10px;
+}
+
+.inner-footer4{
+    background-color:black;
+    height: 200px;
+}
