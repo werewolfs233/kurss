@@ -1,0 +1,192 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+/* выполнение */
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+}
+
+.red{
+    height: 10%;
+    width: 34%;
+    background-color: red;
+    float: left;
+    margin-top:1%;
+}
+
+.orange{
+    height: 10%;
+    width: 65%;
+    background-color: orange;
+    float: right;
+    margin-top: 1%;
+
+}
+
+.green{
+    height: 61%;
+    width: 100%;
+    background-color: green;
+    float: right;
+    margin-top:2% ;
+}
+
+
+.brown{
+    height: 27%;
+    width: 32.66%;
+    background-color: brown;
+    float: left;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+.blue{
+    height: 27%;
+    width: 32.66%;
+    background-color: blue;
+    float: left;
+    margin-right: 1%;
+     margin-top: 1%;
+}
+
+.pueple{
+    height: 27%;
+    width: 32.66%;
+    background-color: purple;
+    float: left;
+     margin-top: 1%;
+}
+
+@media(max-width:320px){
+    .red{
+        width: 100%;
+        height: 315.5px;
+        position: absolute;
+        margin-top: 220px
+    }
+
+
+    .green{
+        margin: 0;
+        height: 110px;
+        position: absolute;
+    }
+
+    .pueple{
+        width: 100%;
+        height: 100px;
+        position: absolute;
+        margin-top: 115px;
+    }
+
+    .orange{
+        width: 100%;
+        margin-top:545.5px;
+    }
+
+    .brown{
+        position: absolute;
+        width: 100%;
+        height: 60px;
+        margin-top:610px;
+    }
+
+    .blue{
+        position: absolute;
+        width: 100%;
+        height: 60px;
+        margin-top: 680px;
+    }
+}
+
+@media (min-width:321px) and (max-width:1440px){
+    .orange{
+        position: absolute;
+        width: 34vw;
+    }
+
+
+    .pueple{
+        position: absolute;
+        height: 10vh;
+        width: 64vw;
+        margin-left: 36vw;
+
+    }
+
+    .red{
+        position: absolute;
+        width: 100%;
+        height: 61%;
+        margin-top: 14vh;
+    }
+
+
+    .green{
+        height: 23vh;
+        width: 49vw;
+        position: absolute;
+        margin-top: 77vh;
+    }
+
+
+    .blue{
+        height: 23vh;
+        width: 49vw;
+        position: absolute;
+        margin-top: 77vh;
+        margin-left: 51vw;
+    }
+
+    .brown{
+        position: absolute;
+        margin-top: 102vh;
+        width: 100vw;
+    }
+
+}
