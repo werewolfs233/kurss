@@ -491,12 +491,11 @@ input:disabled + label:before {
 
 }
 
-@media (min-width:360px) and (max-width:1440px) {
+@media (min-width:320px) and (max-width:1440px) {
 
 
     .wrapper{
-      left: 22%;
-        right: 22%;
+      max-width: 80%
     }
 
     .center{
@@ -507,9 +506,10 @@ input:disabled + label:before {
         max-width: 80%;
     }
 
-    .btr{
-        margin-top: ;
+    .conteiner2 .bot_text{
+        padding: 0 10%
     }
+
 
     .conteiner3 .text3{
         padding: 37px 15% 0 15%;
@@ -524,18 +524,361 @@ input:disabled + label:before {
     }
 
     .login{
-        margin-top: 20%;
+        margin-top: 30%;
+    }
+
+    .footer .footers{
+        position: relative;
+        left: 10%
+    }
+
+    .links{
+        margin-right: 10%;
     }
 
 
 }
 
-@media (min-width:0px) and (max-width:360px) {
-    .wrapper{
-       padding-left: 3.5%;
-        padding-right: 3.5%;
+@media (min-width:320px) and (max-width:960px) {
+
+    .form_input{
+        padding: 4% 60% 4% 3%;
+    }
+
+    #fi{
+        padding: 4% 60% 18% 3%
+    }
+
+    .form_button{
+        margin-right: 4%;
+    }
+
+    label{
+        margin-left: 4%;
+    }
+
+    .conteiner2 i{
+        max-width: 90%;
     }
 }
+
+@media (max-width:850px){
+
+    .form_input{
+        padding: 3% 40% 3% 3%;
+    }
+
+    #fi{
+        padding: 3% 40% 14% 3%
+    }
+
+    .form_button{
+        margin-right: 14%;
+    }
+
+    label{
+        margin-left: 14%;
+    }
+
+    .login {
+        margin-top: 40%;
+    }
+}
+
+@media (min-width:500px) and (max-width:850px){
+
+    header .logo_text{
+        font-size: 25px
+    }
+
+    .conteiner2 h1{
+        font-size: 100px;
+    }
+
+    .conteiner2 .bot_text{
+        font-size: 15px
+    }
+
+    .conteiner2 .btr a{
+        padding: 5% 7%;
+        font-size: 14px
+    }
+
+    .conteiner3 h2{
+        font-size: 32px
+    }
+
+    .conteiner3 .text3{
+        font-size: 15px;
+    }
+
+    .conteiner4{
+        width: 0px;
+    }
+
+    .conteiner4 .mob{
+        margin-left: 0;
+    }
+
+    .conteiner4 .rep{
+        margin-right:0;
+
+    }
+
+    .conteiner4 .tel{
+        margin-left: 11vw;
+        margin-right: 11vw;
+
+    }
+
+    .conteiner4 .mob_img{
+        position: relative;
+        height: 40%
+    }
+
+    .conteiner4 .tel_img{
+        height: 40%
+    }
+
+    .conteiner4 .rep_img{
+        height: 40%;
+    }
+
+    .conteiner4 .set{
+        font-size: 20px;
+    }
+
+    .conteiner4 .settext{
+        font-size: 15px;
+    }
+
+    .login .login_text{
+        font-size: 32px
+    }
+
+    .login .insaid_text{
+        font-size: 14px;
+    }
+
+    .form{
+        width: 100%;
+    }
+
+    .form_input{
+        padding: 3% 40% 3% 3%;
+    }
+
+    #fi{
+        padding: 3% 40% 14% 3%
+    }
+
+    .form_button{
+        margin-right: 10%;
+    }
+
+    label{
+        margin-left: 10%;
+    }
+}
+
+@media (min-width:500px) and (max-width:600px){
+
+    .form_input{
+        padding: 3% 30% 3% 3%;
+    }
+
+    #fi{
+        padding: 3% 30% 14% 3%
+    }
+
+    .form_button{
+        margin-right: 12%;
+        padding: 2% 7%;
+    }
+
+    label{
+        margin-left: 12%;
+        font-size: 13px;
+        padding: 10px 0 0 0;
+
+    }
+
+    .footer .footers{
+        position: relative;
+        left: 9%;
+        font-size: 12px;
+    }
+
+
+    .links .in{
+        padding:5px 8px 2px 8px;
+        margin-top: 2%;
+    }
+
+    .links .googl{
+        padding: 5px 5px 2px 5px;
+        margin-top: 2%;
+    }
+
+    .links .twiter{
+        padding:5px 4px 2px 6px;
+        margin-top: 2%;
+    }
+
+    .links .fb{
+        padding:4px 6px 4px 6px;
+        margin-top: 2%;
+    }
+}
+
+@media (min-width:320px) and (max-width:500px){
+    header .logo{
+        height: 30px;
+    }
+
+    header .logo_text{
+        font-size: 20px
+    }
+
+    .conteiner2{
+        height: 70vh
+    }
+
+    .conteiner2 h1{
+        font-size: 60px;
+    }
+
+    .conteiner2 .bot_text{
+        font-size: 15px
+    }
+
+    .conteiner2 .btr a{
+        padding: 5% 7%;
+        font-size: 14px
+    }
+
+    .conteiner3 h2{
+        font-size: 25px
+    }
+
+    .conteiner3 .text3{
+        font-size: 14px;
+    }
+
+    .conteiner4{
+        width: 0px;
+    }
+
+    .conteiner4 .mob{
+        margin-left: 0;
+    }
+
+    .conteiner4 .rep{
+        margin-right:0;
+
+    }
+
+    .conteiner4 .tel{
+        margin-left: 9vw;
+        margin-right: 9vw;
+
+    }
+
+    .conteiner4 .mob_img{
+        position: relative;
+        height: 25%
+    }
+
+    .conteiner4 .tel_img{
+        height: 25%
+    }
+
+    .conteiner4 .rep_img{
+        height: 25%;
+    }
+
+    .conteiner4 .set{
+        font-size: 12px;
+    }
+
+    .conteiner4 .settext{
+        font-size: 10px;
+    }
+
+    .login .login_text{
+        font-size: 24px
+    }
+
+    .login .insaid_text{
+        font-size: 12px;
+    }
+
+/*input*/
+    .login{
+        height: 500px;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .form_input{
+        padding: 3% 17% 3% 1%;
+    }
+
+    #fi{
+        padding: 3% 17% 15% 1%
+    }
+
+    .form_button{
+        margin-top: 5%;
+        margin-right: 68%;
+        padding: 2% 7%;
+        font-size: 13px
+    }
+
+    label{
+        margin-left: 7%;
+        font-size: 13px;
+        padding: 10px 0 0 0;
+
+    }
+
+/*footer*/
+    .footer .footers{
+        position: relative;
+        left: 9%;
+        font-size: 12px;
+    }
+
+    .footer{
+        height: 12vh;
+    }
+
+
+    .links .in{
+        padding:5px 8px 2px 8px;
+        margin-top: 18%;
+        margin-left: 3%;
+    }
+
+    .links .googl{
+        padding: 5px 5px 2px 5px;
+        margin-top: 18%;
+    }
+
+    .links .twiter{
+        padding:5px 4px 2px 6px;
+        margin-top: 18%;
+    }
+
+    .links .fb{
+        padding:4px 6px 4px 6px;
+        margin-top: 18%;
+        margin-right: 40PX;
+        }
+}
+
 
 
 
