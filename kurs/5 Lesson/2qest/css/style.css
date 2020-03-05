@@ -762,47 +762,53 @@ input:disabled + label:before {
     }
 
     .conteiner3 .text3{
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .conteiner4{
         width: 0px;
+
+
     }
 
     .conteiner4 .mob{
         margin-left: 0;
+        margin-top: 20px;
+
     }
 
     .conteiner4 .rep{
         margin-right:0;
+        margin-top: 20px;
 
     }
 
     .conteiner4 .tel{
-        margin-left: 9vw;
-        margin-right: 9vw;
+        margin-left:5vw;
+        margin-right: 5vw;
+        margin-top: 330px;
 
     }
 
     .conteiner4 .mob_img{
         position: relative;
-        height: 25%
+        height: 35%
     }
 
     .conteiner4 .tel_img{
-        height: 25%
+        height: 35%
     }
 
     .conteiner4 .rep_img{
-        height: 25%;
+        height: 35%;
     }
 
     .conteiner4 .set{
-        font-size: 12px;
+        font-size: 18px;
     }
 
     .conteiner4 .settext{
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .login .login_text{
@@ -815,7 +821,16 @@ input:disabled + label:before {
 
 /*input*/
     .login{
-        height: 500px;
+        height: 700px;
+        margin-top: 100%;
+    }
+
+    .login .login_text{
+        font-size: 30px;
+    }
+
+    .login .insaid_text{
+        font-size: 15px;
     }
 
     .form {
@@ -823,23 +838,23 @@ input:disabled + label:before {
     }
 
     .form_input{
-        padding: 3% 17% 3% 1%;
+        padding: 6% 27% 3% 2%;
     }
 
     #fi{
-        padding: 3% 17% 15% 1%
+        padding: 6% 27% 15% 1%
     }
 
     .form_button{
         margin-top: 5%;
         margin-right: 68%;
         padding: 2% 7%;
-        font-size: 13px
+        font-size: 16px
     }
 
     label{
         margin-left: 7%;
-        font-size: 13px;
+        font-size: 16px;
         padding: 10px 0 0 0;
 
     }
@@ -879,7 +894,11 @@ input:disabled + label:before {
         }
 }
 
-
+@media (min-width:320px) and (max-width:1600px) {
+    .wrapper{
+        max-width: 100%;
+    }
+}
 
 
 
