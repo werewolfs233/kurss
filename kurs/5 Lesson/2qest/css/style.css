@@ -900,6 +900,12 @@ input:disabled + label:before {
     }
 }
 
+@media (min-width:320px) and (max-width:2560px){
+    .footer .footers{
+        display: inline-block;
+    }
+}
+
 
 
 
