@@ -737,7 +737,7 @@ input:disabled + label:before {
     }
 
     header .logo_text{
-        font-size: 20px
+        font-size: 23px
     }
 
     .conteiner2{
@@ -745,28 +745,33 @@ input:disabled + label:before {
     }
 
     .conteiner2 h1{
-        font-size: 60px;
+        font-size: 70px;
     }
 
     .conteiner2 .bot_text{
-        font-size: 15px
+        font-size: 17px
     }
 
     .conteiner2 .btr a{
         padding: 5% 7%;
-        font-size: 14px
+        font-size: 17px
+    }
+
+    .conteiner3 {
+        height: 400px
     }
 
     .conteiner3 h2{
-        font-size: 25px
+        font-size: 29px
     }
 
     .conteiner3 .text3{
-        font-size: 15px;
+        font-size: 18px;
     }
 
     .conteiner4{
         width: 0px;
+        max-height: 350px;
 
 
     }
@@ -784,8 +789,8 @@ input:disabled + label:before {
     }
 
     .conteiner4 .tel{
-        margin-left:5vw;
-        margin-right: 5vw;
+        margin-left:3vw;
+        margin-right: 3vw;
         margin-top: 330px;
 
     }
@@ -804,20 +809,13 @@ input:disabled + label:before {
     }
 
     .conteiner4 .set{
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .conteiner4 .settext{
-        font-size: 15px;
+        font-size: 17px;
     }
 
-    .login .login_text{
-        font-size: 24px
-    }
-
-    .login .insaid_text{
-        font-size: 12px;
-    }
 
 /*input*/
     .login{
@@ -830,7 +828,7 @@ input:disabled + label:before {
     }
 
     .login .insaid_text{
-        font-size: 15px;
+        font-size: 17px;
     }
 
     .form {
@@ -849,7 +847,7 @@ input:disabled + label:before {
         margin-top: 5%;
         margin-right: 68%;
         padding: 2% 7%;
-        font-size: 16px
+        font-size: 17px
     }
 
     label{
@@ -863,7 +861,7 @@ input:disabled + label:before {
     .footer .footers{
         position: relative;
         left: 9%;
-        font-size: 12px;
+        font-size: 17px;
     }
 
     .footer{
