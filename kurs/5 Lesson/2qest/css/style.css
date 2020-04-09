@@ -904,6 +904,12 @@ input:disabled + label:before {
     }
 }
 
+@media (min-width:320px) and (max-width:425px){
+    .conteiner2{
+        height: 100vh;
+    }
+}
+
 
 
 
