@@ -103,11 +103,11 @@ header,
 hgroup,
 menu,
 nav,
-section {
+ section {
   display: block;
-}
+ }
 
-body {
+ body {
   line-height: 1;
 }
 
